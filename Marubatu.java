@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class Marubatu{
     public static void main(String[] args){
-    int win=1;
     int size = 3;
     int[][]board = new  int[size][size];
 
