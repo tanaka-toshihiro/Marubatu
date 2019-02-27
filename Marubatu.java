@@ -7,7 +7,7 @@ public class Marubatu{
     for(int i = 0; i < size; i++ ){
         for(int j = 0; j < size; j++ ){
         board[i][j] =  0;
-		}
+        }
     }
     String []koma = new String[3];
     koma[0] = " ";
@@ -56,14 +56,3 @@ public class Marubatu{
         }
         }
  }
-	
-	  
-	
-			  
-			  	
-	 
-	
-	  
-	  
-	    
-		
