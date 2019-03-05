@@ -53,5 +53,4 @@ public class Marubatu{
     }   
     System.out.println("draw");
   }
- 
 }
