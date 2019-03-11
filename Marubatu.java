@@ -40,15 +40,15 @@ public class Marubatu{
       if(board[0][0] * board[0][1] * board[0][2] == 1 || board[1][0] *  board[1][1] * board[1][2] ==1 || board[2][0] * board[2][1] * board[2][2] == 1 
       || board[0][0] * board[1][0] * board[2][0] == 1 || board[0][1] *  board[1][1] * board[2][1] == 1 || board[0][2] * board[1][2] * board[2][2] == 1 
       || board[0][0] * board[1][1] * board[2][2] == 1 || board[0][2] * board[1][1] * board[2][0] == 1){
-      System.out.println("1  player wins"); 
-      System.exit(0);	
+        System.out.println("1  player wins"); 
+        System.exit(0);	
       }
       
       if(board[0][0] * board[0][1] * board[0][2] ==8 ||  board[1][0] * board[1][1] * board[1][2] ==8  ||  board[2][0] * board[2][1] * board[2][2] ==8 
       || board[0][0] * board[1][0] * board[2][0] == 8 || board[0][1] *  board[1][1] * board[2][1] == 8 || board[0][2] * board[1][2] * board[2][2] == 8
       || board[0][0] * board[1][1] * board[2][2] ==8 || board[0][2] * board[1][1] * board[2][0] ==8){
-      System.out.println("2  player wins");
-      System.exit(0);   
+        System.out.println("2  player wins");
+        System.exit(0);   
       }     
     }   
     System.out.println("draw");
